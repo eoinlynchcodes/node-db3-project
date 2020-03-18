@@ -7,6 +7,7 @@ module.exports = {
     useNullAsDefault: true, // needed for sqlite
     connection: {
       filename: './data/schemes.db3',
+      // filename: './data/northwind.db3'
     },
     migrations: {
       directory: './data/migrations'
